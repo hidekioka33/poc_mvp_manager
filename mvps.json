@@ -1,0 +1,50 @@
+[
+  {
+    "_comment": "このファイルはオプションです。自動検出結果を上書きしたいMVPのみ記載してください。",
+    "id": "poc_monthly_report",
+    "name": "月次レポート自動生成（CLI）",
+    "summary": "顧客別の売上・費用データからClaude APIで月次レポートを自動生成しPDF出力するCLIツール"
+  },
+  {
+    "id": "poc_platform_a",
+    "name": "AI経営コックピット",
+    "summary": "財務データ（PL・BS）をアップロードしKPI表示・月次レポート生成・AIチャット相談を提供するWebアプリ",
+    "urls": {
+      "Local": "http://localhost:8501",
+      "Streamlit Cloud": "https://hidekioka33-poc-platform-a-app-0s7trc.streamlit.app/"
+    }
+  },
+  {
+    "id": "npo-joseikin-ai",
+    "name": "NPO助成金申請AI",
+    "summary": "子供支援NPO・社会福祉法人向けに助成金申請書の生成（Word出力）と既存申請書のAIチェックを行うStreamlit Webアプリ",
+    "urls": {
+      "Local": "http://localhost:8503"
+    }
+  },
+  {
+    "id": "daigaku-juken-ai",
+    "name": "大学受験サポートAI",
+    "summary": "高校生・保護者向けに志望校・入試方式・勉強計画をAIが個別サポートするStreamlit Webアプリ（Pattern 3: AI Knowledge Navigator）",
+    "urls": {
+      "Local": "http://localhost:8504"
+    }
+  },
+  {
+    "id": "sns-monitor-ai",
+    "name": "SNSモニタリング・分析AI",
+    "summary": "キーワード・期間を指定してYouTubeコメントを収集し、Claude APIで感情分析・トピック分類・頻出ワード抽出を行うインタラクティブダッシュボード（複数テナント対応）",
+    "urls": {
+      "Local": "http://localhost:8505"
+    }
+  },
+  {
+    "id": "x-sns-analyzer",
+    "name": "X SNS分析ダッシュボード",
+    "summary": "製品名・会社名・個人名等のキーワードからX投稿を収集し、6分析（バズ/インフルエンサー/VOC/コンテンツ/拡散/ニュース）と時系列比較をSQLiteで蓄積するStreamlitダッシュボード（X API v2 + Claude API）",
+    "urls": {
+      "Local": "http://localhost:8506",
+      "Streamlit Cloud": "https://x-sns-analyzer-apftgxsd9hdgv5cuesmbrr.streamlit.app/"
+    }
+  }
+]
