@@ -1,5 +1,14 @@
 [
   {
+    "id": "poc_mvp_manager",
+    "name": "MVP管理ダッシュボード",
+    "summary": "全MVPを一覧・管理するダッシュボード。mvps.jsonによるURL登録・メモ機能を提供するStreamlit Webアプリ",
+    "urls": {
+      "Local": "http://localhost:8502",
+      "Streamlit Cloud": "https://pocmvpmanager-aggy5hedafi8nk3rdg9if9.streamlit.app/"
+    }
+  },
+  {
     "_comment": "このファイルはオプションです。自動検出結果を上書きしたいMVPのみ記載してください。",
     "id": "poc_monthly_report",
     "name": "月次レポート自動生成（CLI）",
